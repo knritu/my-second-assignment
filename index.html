@@ -12,14 +12,14 @@
     <nav class="flex justify-between items-center px-8 py-4 max-w-[1140px] mx-auto ">
   <!-- Logo -->
   <div >
-    <img src="logo.png" alt="Faugei Logo" class="h-[82px] w-[135px]" />
+    <img src="logo.png" alt="Faugei Logo" class="h-[78px] w-[130px]" />
   </div>
 
   <!-- Navigation Links -->
   <div class="flex items-center space-x-6 text-gray-500 font-medium">
-    <a href="#" class="text-black">Home</a>
-    <a href="#" class="text-gray-300 ">Shop</a>
-    <a href="#" class="text-gray-300 ">About us</a>
+    <a href="#" class="text-black hidden sm:block">Home</a>
+    <a href="#" class="text-gray-300 hidden sm:block ">Shop</a>
+    <a href="#" class="text-gray-300 hidden sm:block">About us</a>
     <div class="flex items-center s-x-2">
         <img src="icons8-cart-48.png" alt="carticon">
         <a href="#" class="text-black">Cart </a>
@@ -27,7 +27,7 @@
     </nav>
     </header>
     <main class="bg-gray-100">
-  <section class="text-center py-10 px-4 flex justify-between max-w-[1140px] mx-auto">
+  <section class="text-center py-10 px-4  flex md:flex-row justify-between max-w-[1140px] mx-auto sm:flex-col">
    <div> <h1 class="text-4xl font-bold">ALWAYS <span class="text-orange-500">FRESH<br> FLOWERS</span></h1>
     
     <p class="mt-4 max-w-xl mx-auto text-gray-500 ">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br>are perfect for any occasion.</p>
@@ -35,11 +35,11 @@
     <div><img src="hero-flower.png" alt="Flower" class="mx-auto mt-6 w-[570px] h-[355px]"></div>
 </section>
 <!-- Our Plants -->
-  <section class="py-10 px-6 bg-white max-w-[1140px] mx-auto">
+  <section class="py-10 px-6 max-w-[1140px] mx-auto">
     <h2 class="text-3xl text-center  font-bold mb-4"> <span class="text-orange-500">Our</span> Plants</h2>
     <p class="text-center max-w-xl mx-auto mb-8 text-gray-500 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
 
-    <div class="grid grid-cols-4 gap-6 max-w-6xl mx-auto">
+    <div class="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto sm:grid-cols-2">
       <!-- Flower Card -->
       <div class="bg-white shadow rounded p-4 text-center">
         <img src="sample-flower-image.png" alt="Lily" class="mx-auto mb-3" />
@@ -106,8 +106,7 @@
      </ol>
   </section>
 <!-- Latest Deals --> 
-     <h2 class="text-3xl font-bold text-center text-orange-500 mb-4">Latest Deals</h2>
-    <p class="text-center max-w-xl mx-auto mb-8 text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+     <h2 class="text-3xl font-bold text-center mb-4"> <span class="text-orange-500">Latest</span> Deals</h2>
   <!-- Offer Section -->
   <section class="max-w-6xl mx-auto py-10 px-4 grid md:grid-cols-3 gap-4 max-w-[1140px] mx-auto"">
     <!-- Left Column -->
@@ -148,13 +147,13 @@
 
   <!-- Footer -->
   <footer class="bg-white py-8 px-6 border-t mt-10">
-    <div class="justify-between items-center max-w-6xl mx-auto gap-6 grid grid-cols-3">
+    <div class="justify-between items-center max-w-6xl mx-auto gap-6 grid md:grid-cols-3">
       <div>
         <img src="logo.png" alt="Logo" class="h-10 mb-2">
         <p class="text-sm text-gray-600 max-w-xs">Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop.</p>
       </div>
        <div>
-      <ul class=" grid grid-cols-2 gap-4 text-sm text-gray-600">
+      <ul class=" grid md:grid-cols-2 gap-4 text-sm text-gray-600">
         <li>Home</li>
         <li>About Us</li>
         <li>Blog</li>
