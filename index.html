@@ -6,9 +6,10 @@
     <title>Flower Market</title>
      <script src="https://cdn.tailwindcss.com"></script>
 </head> 
-<body class="max-w-[1140px] mx-auto">
-    <header >
-    <nav class="bg-white shadow flex justify-between items-center px-8 py-4">
+<body >
+
+    <header class="bg-gray-100 " >
+    <nav class="flex justify-between items-center px-8 py-4 max-w-[1140px] mx-auto ">
   <!-- Logo -->
   <div >
     <img src="logo.png" alt="Faugei Logo" class="h-[82px] w-[135px]" />
@@ -25,8 +26,8 @@
     </div>
     </nav>
     </header>
-    <main>
-  <section class="text-center py-10 px-4 flex justify-between">
+    <main class="bg-gray-100">
+  <section class="text-center py-10 px-4 flex justify-between max-w-[1140px] mx-auto">
    <div> <h1 class="text-4xl font-bold">ALWAYS <span class="text-orange-500">FRESH<br> FLOWERS</span></h1>
     
     <p class="mt-4 max-w-xl mx-auto text-gray-500 ">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br>are perfect for any occasion.</p>
@@ -34,7 +35,7 @@
     <div><img src="hero-flower.png" alt="Flower" class="mx-auto mt-6 w-[570px] h-[355px]"></div>
 </section>
 <!-- Our Plants -->
-  <section class="py-10 px-6 bg-white">
+  <section class="py-10 px-6 bg-white max-w-[1140px] mx-auto">
     <h2 class="text-3xl text-center  font-bold mb-4"> <span class="text-orange-500">Our</span> Plants</h2>
     <p class="text-center max-w-xl mx-auto mb-8 text-gray-500 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
 
@@ -93,7 +94,7 @@
   </section>
 
   <!-- Flower Lover Section -->
-  <section class="py-12 px-6 flex flex-col md:flex-row items-center gap-8 bg-gray-100">
+  <section class="py-12 px-6 flex flex-col md:flex-row items-center gap-8 bg-gray-100 max-w-[1140px] mx-auto ">
     <img src="flower-store.png" alt="Flower Lover" class="w-full md:w-1/2 rounded shadow" />
     <div class="md:w-1/2 space-y-4">
       <h1 class="text-4xl font-bold text-black-700">Flower & Plants <br>Lover</h1>
@@ -104,13 +105,78 @@
         <li>Indulge your senses with the beauty and <br>fragrance of our fresh flower shop. From classic <br>roses to exotic blooms, we offer a wide variety <br> of fresh.</li>
      </ol>
   </section>
+<!-- Latest Deals --> 
+     <h2 class="text-3xl font-bold text-center text-orange-500 mb-4">Latest Deals</h2>
+    <p class="text-center max-w-xl mx-auto mb-8 text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+  <!-- Offer Section -->
+  <section class="max-w-6xl mx-auto py-10 px-4 grid md:grid-cols-3 gap-4 max-w-[1140px] mx-auto"">
+    <!-- Left Column -->
+    <div class="flex flex-col gap-4">
+      <div class="bg-cover bg-center bg-opacity-50 rounded-lg h-32 flex items-center justify-center text-center" style="background-image: url('deal-bloom.png')";>
 
+        <div class=" p-2 rounded text-white">
+          <p class="text-sm font-bold">30% Off | Bloom Plant</p>
+          <a href="#" class="underline text-sm">Shop Now</a>
+        </div>
+      </div>
+      <div class="bg-cover bg-opacity-50 bg-center rounded-lg h-32 flex items-center justify-center text-center" style="background-image: url('deal-ana.png')";>
+        <div class=" p-2 rounded text-white">
+          <p class="text-sm font-bold">30% Off | Lava Plant</p>
+          <a href="#" class="underline text-sm">Shop Now</a>
+        </div>
+      </div>
+    </div>
 
-
-
-
-
-
+    <!-- Right Column (spans 2 columns on md+) -->
+    <div class="md:col-span-2 bg-cover bg-opacity-50 bg-center rounded-lg h-64 flex items-center justify-center text-center" style="background-image: url('deal-zabo.png')";>
+      <div class=" p-4 rounded text-white">
+        <h2 class="text-xl font-bold">25% Off | Zabo Plant</h2>
+        <a href="#" class="underline text-sm">Shop Now</a>
+      </div>
+    </div>
+  </section>
+ 
+<!-- Newsletter -->
+  <section class="px-4 py-20 bg-[url('news-letter-bg.png')] bg-cover bg-center text-white text-center max-w-full h-[533px]">
+    <h2 class="text-3xl font-bold mb-4">Join the colorful Bunch</h2>
+    <form class="flex justify-center items-center gap-0 max-w-md mx-auto">
+      <input type="email" placeholder="Write email" class="px-4 py-2 w-full text-black "/>
+      <button type="submit" class="bg-orange-500 text-white px-6 py-2 ">Subscribe</button>
+    </form>
+  </section>
     </main>
+
+  <!-- Footer -->
+  <footer class="bg-white py-8 px-6 border-t mt-10">
+    <div class="justify-between items-center max-w-6xl mx-auto gap-6 grid grid-cols-3">
+      <div>
+        <img src="logo.png" alt="Logo" class="h-10 mb-2">
+        <p class="text-sm text-gray-600 max-w-xs">Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop.</p>
+      </div>
+       <div>
+      <ul class=" grid grid-cols-2 gap-4 text-sm text-gray-600">
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Blog</li>
+        <li>FAQ</li>
+        <li>Contact Us</li>
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Privacy Policy</li>
+        <li>Terms Of Service</li>
+        <li>Help Center</li>
+      </ul></div>
+      <div class="flex gap-4">
+        <img src="icon-linkedin.png" alt="icon-linkedin">
+        <img src="icon-twitter.png" alt="icon-twitter">
+        <img src="icon-facebook.png" alt="icon-facebook">
+        <img src="icon-youtube.png" alt="icon-youtube">
+      </div>
+    </div>
+  </footer>
+
+
+
+    
 </body>
 </html>
